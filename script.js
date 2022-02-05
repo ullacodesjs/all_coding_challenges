@@ -1,4 +1,8 @@
 // Coding Challenge #1
+
+
+
+
 // Mark and John are trying to compare their BMI (Body Mass Index), which is calculated using the formula:
 // BMI = mass / height ** 2 = mass / (height * height) (mass in kg and height in meter).
 
@@ -14,6 +18,17 @@
 // Test data:
 // Data 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m tall.
 // Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.
+
+
+
+
+
+
+
+
+
+
+//SOLUTION
 
 // test data 1
 // const massMark = 78;
@@ -48,6 +63,10 @@
 
 
 // Coding Challenge #2
+
+
+
+
 // Use the BMI example from Challenge #1, and the code you already wrote, and improve it.
 
 // Your tasks:
@@ -60,7 +79,27 @@
 // Hint: Use an if/else statement
 
 
+//SOLUTION
 
+// const massMark = 95;
+// const heightMark = 1.88;
+// const massJohn = 85;
+// const heightJohn = 1.76;
+
+// const massMark = 78;
+// const heightMark = 1.69;
+// const massJohn = 92;
+// const heightJohn = 1.95;
+
+// const BMIMark = massMark / heightMark ** 2;
+// const BMIJohn = massJohn / (heightJohn * heightJohn);
+// const markHigherBMI = BMIMark > BMIJohn;
+
+// if (BMIMark > BMIJohn) {
+//     console.log(`Mark's BMI (${BMIMark}) is higher than John's (${BMIJohn})!`)
+// } else {
+//     console.log(`John's (${BMIJohn}) BMI is higher than Mark's(${BMIMark})!`)
+// }
 
 
 
@@ -75,6 +114,10 @@
 
 
 // Coding Challenge #3
+
+
+
+
 // There are two gymnastics teams, Dolphins and Koalas. They compete against each other 3 times. The winner with the highest average score wins a trophy!
 
 // Your tasks:
@@ -95,6 +138,14 @@
 
 // Data Bonus 1: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 123 
 // Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
+
+
+
+
+
+
+
+
 
 //SOLUTION
 
@@ -130,7 +181,30 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Coding Challenge #4
+
+
+
+
 // Steven wants to build a very simple tip calculator for whenever he goes eating in a restaurant.
 // In his country, it's usual to tip 15% if the bill value is between 50 and 300. If the value is different, the tip is 20%.
 
