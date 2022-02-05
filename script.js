@@ -3,20 +3,36 @@
 // BMI = mass / height ** 2 = mass / (height * height) (mass in kg and height in meter).
 
 // Your tasks:
-// 1. StoreMark'sandJohn'smassandheightinvariables
+// 1. Store Mark's and John's mass and height in variables
 
-// 2. CalculateboththeirBMIsusingtheformula(youcanevenimplementboth
+// 2. Calculate both their BMIs using the formula (you can even implement both
 // versions)
 
-// 3. CreateaBooleanvariable'markHigherBMI'containinginformationabout
+// 3. Create a Boolean variable 'markHigherBMI' containing information about
 // whether Mark has a higher BMI than John.
 
 // Test data:
 // Data 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m tall.
 // Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.
 
+// test data 1
+// const massMark = 78;
+// const heightMark = 1.69;
+// const massJohn = 92;
+// const heightJohn = 1.95;
 
 
+// test data 2
+// const massMark = 95;
+// const heightMark = 1.88;
+// const massJohn = 85;
+// const heightJohn = 1.76;
+
+// const BMIMark = massMark / heightMark ** 2;
+// const BMIJohn = massJohn / (heightJohn * heightJohn);
+// const markHigherBMI = BMIMark > BMIJohn;
+
+// console.log(BMIMark, BMIJohn, markHigherBMI);
 
 
 
@@ -98,17 +114,19 @@
 
 //bonus 1
 
-const dolphinsScore = (97 + 112 + 81) / 3;
-const koalasScore = (109 + 95 + 86) / 3;
-console.log(dolphinsScore, koalasScore);
+// const dolphinsScore = (97 + 112 + 81) / 3;
+// const koalasScore = (109 + 95 + 86) / 3;
+// console.log(dolphinsScore, koalasScore);
 
-if (dolphinsScore > koalasScore && dolphinsScore >= 100) {
-    console.log ("Dolphins win!");
-} else if (koalasScore > dolphinsScore && dolphinsScore >= 100) {
-    console.log ("Koalas win!");
-} else if (dolphinsScore === koalasScore) {
-    console.log("both win!");
-}
+// if (dolphinsScore > koalasScore && dolphinsScore >= 100) {
+//     console.log ("Dolphins win!");
+// } else if (koalasScore > dolphinsScore && dolphinsScore >= 100) {
+//     console.log ("Koalas win!");
+// } else if (dolphinsScore === koalasScore && dolphinsScore >= 100 && koalasScore >= 100) {
+//     console.log("both win!");
+// } else {
+//     console.log("no one wins :(");
+// }
 
 
 
