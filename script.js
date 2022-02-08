@@ -1,3 +1,5 @@
+//27 Challenges Total by JONAS.IO The Complete JavaScript Course
+
 // Coding Challenge #1
 
 
@@ -185,21 +187,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Coding Challenge #4
 
 
@@ -216,3 +203,11 @@
 // Test data:
 //  Data 1: Test for bill values 275, 40 and 430
 //  Hints: To calculate 20% of a value, simply multiply it by 20/100 = 0.2 § Value X is between 50 and 300, if it's>= 50 && <= 300
+
+
+//solution
+
+// const bill = 430;
+// const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
+// console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
+
